@@ -1,0 +1,99 @@
+.login_wrapper {
+    width: 100%;
+    overflow: hidden;
+  }
+  .login_img {
+    width: 100%;
+    height: 100vh;
+    object-fit: cover;
+  }
+  .login_section {
+    width: 100%;
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .login_section > h3 {
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40.992px;
+    line-height: 61px;
+    color: #000000;
+  }
+  .login_section > p {
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15.75px;
+    line-height: 24px;
+    /* identical to box height */
+    color: #a3a3a3;
+    margin-top: 5px;
+  }
+  .login_logo {
+    margin-top: 30px;
+  }
+  .form {
+    display: flex;
+    flex-direction: column;
+  }
+  .input_section > input {
+    background-color: none;
+    border: none;
+    border-bottom: 1px solid #e7e3e3;
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15.75px;
+    line-height: 24px;
+    width: 350px;
+    margin-top: 40px;
+    /* identical to box height */
+    color: #a3a3a3;
+  }
+  .login_button {
+    background: #002aff;
+    border-radius: 5.25px;
+    border: none;
+    color: #fff;
+    margin-top: 40px;
+    padding: 8px;
+  }
+  .login_sinup_section {
+    margin-top: 20px;
+    display: flex;
+    gap: 40px;
+  }
+  .noacc {
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15.75px;
+    line-height: 24px;
+    color: #a3a3a3;
+  }
+  .signup {
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15.75px;
+    line-height: 24px;
+    color: #232323;
+  }
+
+  #footprint{
+    margin-top: 100px;
+
+  }
+
+
+  .input_section > input{
+    margin-top: 2px;
+    margin-bottom: 30px;
+  }
+  .login_button{
+    margin-top: 10px;
+  }

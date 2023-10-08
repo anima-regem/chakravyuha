@@ -103,8 +103,8 @@ const NavBar = () => {
                     <ul className="w-full flex items-center justify-center pb-24 gap-4">
                         {
                             NavButtons.map((navbutton, index) => (
-                                <List className="w-auto" key={index}>
-                                    <Button onClick={() => navigate(navbutton.url)} type="button" className={`${navbutton.name === "Signup" ? "border-2 border-gray-950 before:top-0" : "before:bottom-0 border-b-2 border-white hover:border-gray-950"} py-1.5 px-5 relative z-10 before:content-[''] before:absolute before:left-0 before:w-full before:h-0 before:bg-color2 before:-z-10 hover:before:h-full before:transition-all before:duration-300 before:ease-in text-base`}>{navbutton.name}</Button>
+                                <List className="w-auto" key={index}>name
+                                    <Button onClick={() => navigate(navbutton.url)} type="button" className={`${navbutton.name == "Signup" ? "border-2 border-gray-950 before:top-0" : "before:bottom-0 border-b-2 border-white hover:border-gray-950"} py-1.5 px-5 relative z-10 before:content-[''] before:absolute before:left-0 before:w-full before:h-0 before:bg-color2 before:-z-10 hover:before:h-full before:transition-all before:duration-300 before:ease-in text-base`}>{navbutton.name}</Button>
                                 </List>
                             ))
                         }

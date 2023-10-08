@@ -1,18 +1,27 @@
 export const NavLinks = [
     {
         name: "Destination",
-        url: "#destination"
+        url: "/#destination"
     },
 ];
 
 export const NavButtons = [
     {
         name: "Login",
-        url: "/"
+        url: "/login"
+    },
+    {   
+        name: "Business Signup",
+        url: "/BusinessSignUp"
+
     },
     {
         name: "Signup",
-        url: "/"
+        url: "/signup"
+    },
+    {
+        name: "Footprint Calculator",
+        url: "/footprint"
     }
 
 ];
