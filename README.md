@@ -1,8 +1,8 @@
 <img src="https://github.com/Signor1/jadoo-travels/blob/25638627b142935345059e6bfcc32bc829629c20/Jadoo-Travel-Agency.png"/>
 
-# Jadoo Travel Agency Landing Page
+# Ryoko Travel Agency Landing Page
 
-This project is a landing page for Jadoo Travel Agency built using React, TypeScript, and Vite.
+This project is a landing page for ryoko Travel Agency built using React, TypeScript, and Vite.
 
 ## Features
 
@@ -10,7 +10,7 @@ This project is a landing page for Jadoo Travel Agency built using React, TypeSc
 - Responsive layout for various screen sizes
 - Smooth scrolling navigation
 - Interactive components and animations
-- Information about Jadoo Travel Agency services
+- Information about Ryoko Travel Agency services
 
 ## Technologies Used
 

@@ -1,21 +1,8 @@
 export const NavLinks = [
     {
         name: "Destination",
-        url: "/"
+        url: "#destination"
     },
-    {
-        name: "Hotels",
-        url: "/"
-    },
-    {
-        name: "Flights",
-        url: "/"
-    },
-    {
-        name: "Bookings",
-        url: "/"
-    }
-
 ];
 
 export const NavButtons = [
@@ -39,7 +26,7 @@ export const HeroTexts = {
     //thirdText: "Built Wicket longer admire do barton vantity itself do in it. Preferred to sportsmen it engrossed listening. Park gate sell they west hard for the.",
     thirdText: "Plan an eco-adventure that leaves memories, not footprints",
     firstButton: "Find out more",
-    secondButton: 'Play Demo'
+   // secondButton: 'Play Demo'
 }
 
 
@@ -67,23 +54,23 @@ export const ServiceTexts = {
 }
 
 export const TopDestinationTexts = {
-    firstText: "Top selling",
+    firstText: "Destinations to Check Out!",
     secondText: "Top Destinations",
     cards: [
         {
             country: "Munnar",
             price: "5.42k",
-            duration: "10 days trip"
+            duration: "6 days trip"
         },
         {
             country: "Paithalmala",
             price: "4.2k",
-            duration: "12 days trip"
+            duration: "8 days trip"
         },
         {
             country: "Nilambur Nedumkayam",
             price: "15k",
-            duration: "26 days trip"
+            duration: "6 days trip"
         },
         {
             country: "Chinnar Wildlife Sanctuary",
@@ -93,12 +80,12 @@ export const TopDestinationTexts = {
         {
             country: "Periyar Tiger Reserve",
             price: "3.9k",
-            duration: "14 days trip"
+            duration: "5 days trip"
         },
         {
             country: "Thommankuthu Waterfalls",
             price: "9.2k",
-            duration: "17 days trip"
+            duration: "4 days trip"
         },
     ]
 }
@@ -159,31 +146,19 @@ export const TestimonialTexts = {
 }
 
 export const NewsletterTexts = {
-    firstText: "Subscribe to get information, latest news and other interesting offers about Jadoo.",
+    firstText: "Subscribe to get information, latest news and other interesting offers about Ryoko.",
     placeholderText: "Your email",
     buttonText: "Subscribe"
 }
 
 export const FooterTexts = {
-    underLogoText: "Book your trip in minutes, get full control for much longer.",
+    underLogoText: "Sustainability is the New Luxury",
     quickLinks: {
         caption: "Quick Links",
         links: [
             {
                 name: "Destination",
-                url: "/"
-            },
-            {
-                name: "Hotels",
-                url: "/"
-            },
-            {
-                name: "Flights",
-                url: "/"
-            },
-            {
-                name: "Bookings",
-                url: "/"
+                url: "#destination"
             },
             {
                 name: "Login",
@@ -223,14 +198,7 @@ export const FooterTexts = {
                 name: "Career",
                 url: "/"
             },
-            {
-                name: "Airlines",
-                url: "/"
-            },
-            {
-                name: "Airline Fees",
-                url: "/"
-            },
+            
             {
                 name: "Low Fare Tips",
                 url: "/"
